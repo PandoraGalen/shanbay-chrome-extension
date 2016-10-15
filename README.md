@@ -17,17 +17,25 @@
  * [Chrome插件开发入门（二）——消息传递机制](http://ju.outofmemory.cn/entry/74567)
  
  
- 
 ## 二、广告过滤
-    好吧， 我偷懒了，这里是直接通过jQuery将指定节点移除完成的。OK, 深深的鄙视下自己再继续下面的内容。
+好吧， 我偷懒了，这里是直接通过jQuery将指定节点移除完成的。OK, 深深的鄙视下自己再继续下面的内容。
+ 
  
 ## 三、文章分页
-    包`1`使用的是jQuery插件textify.js, 在这里你能找到它：http://www.jq22.com/jquery-info6000 \<br>
-    包`2`中实现原理是，通过每次点击按钮，获取按钮中包含的索引，然后给 `header`和`content__main`设置相应的`top`值。
+ * 包`1`使用的是jQuery插件textify.js, 在这里你能找到它：http://www.jq22.com/jquery-info6000 
+ * 包`2`中实现原理是，通过每次点击按钮，获取按钮中包含的索引，然后给 `header`和`content__main`设置相应的`top`值。
+ 
  
 ## 四、选词翻译
+
+图标使用的是`阿里矢量图标库`: http://www.iconfont.cn/help/iconuse.html
  
- ### reference
+最后的效果截图：
+   ![](https://github.com/PandoraGalen/shanbay-chrome-extension/blob/master/2/%E6%88%AA%E5%9B%BE/%E6%88%AA%E5%9B%BE-1.png)
+        
+   ![](https://github.com/PandoraGalen/shanbay-chrome-extension/blob/master/2/%E6%88%AA%E5%9B%BE/%E6%88%AA%E5%9B%BE-2.png)
+        
+   ![](https://github.com/PandoraGalen/shanbay-chrome-extension/blob/master/2/%E6%88%AA%E5%9B%BE/%E6%88%AA%E5%9B%BE-3.png)
  
  
 
