@@ -1,0 +1,88 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* ----------------------------------------
+      分 页
+   ---------------------------------------- */
+
+.js-content-main-column {
+    float: left;
+    text-align: left;
+    background: #ffffff;
+    margin-right: 20px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.contentText {
+    font-family: "Guardian Egyptian Web";
+    font-size: 16px;
+    color: #767676;
+    height: 400px;
+}
+
+
+.content__main-column {
+    margin-left: 20rem !important;
+}
+
+header {
+    display: block;
+}
+
+header .content__header .gs-container, header .tonal__standfirst .gs-container {
+    padding: 0px !important;
+}
+
+header .content__main-column {
+    width: 100%;
+    padding: 0;
+    margin-left: 0px !important;
+}
+
+
+
+/* =================  translate start here =============== */
+
+/* 阿里适量图标库使用方法： http://www.iconfont.cn/help/iconuse.html */
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1476332936_178591.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1476332936_178591.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1476332936_178591.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1476332936_178591.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1476332936_178591.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+                                      
+#horn_icon {
+    width: 22px;
+    height: 22px;
+    background-color: bisque;
+    background: url("chrome-extension://__MSG_@@extension_id__/images/horn4.png") no-repeat 0 0;
+}
+
+#wordPop h3  {
+    font-size: 23px;
+    color: #33475f;
+    font-weight: bolder;
+}
+.iconfont {
+    font-family: "iconfont";
+    font-size: 20px;
+    color: #33475f;
+    margin-left: -16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    padding-left: 20px
+}
+
+.iconfont:hover {
+    cursor: pointer;
+    color: #19a77b;
+}
+/* ============== translate end here ============== */

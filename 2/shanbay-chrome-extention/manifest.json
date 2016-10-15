@@ -1,0 +1,35 @@
+{
+    "name": "MyShanbay-extension",
+    "version": "1.0",
+    "manifest_version": 2,     // 固定的，必填
+    "description": "高龙的扇贝小作业 —— 1、广告过滤、2、屏幕适配、3、单词查询",
+    "icons": {
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    },
+    "permissions": [
+        "tabs",
+        "http://*/",
+        "https://*/"
+    ],
+    "background": {
+        "page": "background.html"
+    },
+    "web_accessible_resources": [
+        "images/*"
+    ],
+    "browser_action": {
+        "default_icon": "images/16.png"
+    },
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],    // 满足什么条件执行该插件 
+        "js": ["js/jquery-1.8.3.min.js"],
+        "run_at": "document_start",     // 在document加载时执行该脚本
+        "all_frames": true
+    }]
+}
+
+
+
+
