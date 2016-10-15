@@ -8,7 +8,7 @@
     
     
 
-## 一、chrome extension
+## 一、Chrome Extension
 ### reference
  * [谷歌文档](http://open.chrome.360.cn/extension_dev/overview.html)
  * [360翻译谷歌的文档(好吧我是这么认为的, 因为两者几乎一样一样的)](https://developer.chrome.com/extensions/content_scripts)
@@ -27,10 +27,13 @@
  
  
 ## 四、选词翻译
-
-图标使用的是`阿里矢量图标库`: http://www.iconfont.cn/help/iconuse.html
+ * 屏幕取词`Window.getSelection()`: https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection
+ * `window.getSelection`方法: http://www.w3dev.cn/article/20140209/window.getSelection.aspx
+ * `window.getSelection`和`document.selection`:http://weifei520120.blog.163.com/blog/static/1768908201452373137232/
+ * 图标使用的是`阿里矢量图标库`: http://www.iconfont.cn/help/iconuse.html
  
-最后的效果截图：
+ 
+## 最后的效果截图：
    ![](https://github.com/PandoraGalen/shanbay-chrome-extension/blob/master/2/%E6%88%AA%E5%9B%BE/%E6%88%AA%E5%9B%BE-1.png)
         
    ![](https://github.com/PandoraGalen/shanbay-chrome-extension/blob/master/2/%E6%88%AA%E5%9B%BE/%E6%88%AA%E5%9B%BE-2.png)
