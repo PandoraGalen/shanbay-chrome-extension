@@ -1,5 +1,5 @@
 # shanbay-chrome-extension
-屏幕广告过滤、屏幕适配、单词查询
+扇贝小作业：屏幕广告过滤、屏幕适配、单词查询
 
     这个仓库里有两个项目包： 1和2。主要区别在文章分页功能实现上:
     * 1中用的是`jQuery`插件`textify.js`：http://www.jq22.com/jquery-info6000
@@ -33,6 +33,7 @@
  * 图标使用的是`阿里矢量图标库`: http://www.iconfont.cn/help/iconuse.html
  
  
+
 ## 最后的效果截图：
    ![](https://github.com/PandoraGalen/shanbay-chrome-extension/blob/master/2/%E6%88%AA%E5%9B%BE/%E6%88%AA%E5%9B%BE-1.png)
         
