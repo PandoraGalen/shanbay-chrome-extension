@@ -32,7 +32,9 @@
  * `window.getSelection`和`document.selection`:http://weifei520120.blog.163.com/blog/static/1768908201452373137232/
  * 图标使用的是`阿里矢量图标库`: http://www.iconfont.cn/help/iconuse.html
  
- 
+## 五、安装扩展
+下载下来压缩文件后解压，找到.crx文件。然后，打开谷歌浏览器在地址栏中输入chrome://extensions/。再把.crx文件拖拽到界面中就可以安装了。
+使用前点击浏览器右上角扇贝图标，就可以看到效果了。
 
 ## 最后的效果截图：
    ![](https://github.com/PandoraGalen/shanbay-chrome-extension/blob/master/2/%E6%88%AA%E5%9B%BE/%E6%88%AA%E5%9B%BE-1.png)
