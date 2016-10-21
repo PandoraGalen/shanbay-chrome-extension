@@ -36,7 +36,7 @@
 下载下来压缩文件后解压，找到.crx文件。然后，打开谷歌浏览器在地址栏中输入chrome://extensions/。再把.crx文件拖拽到界面中就可以安装了。
 使用前点击浏览器右上角扇贝图标，就可以看到效果了。
 
-## 最后的效果截图：
+## 六、效果截图：
    ![](https://github.com/PandoraGalen/shanbay-chrome-extension/blob/master/2/%E6%88%AA%E5%9B%BE/%E6%88%AA%E5%9B%BE-1.png)
         
    ![](https://github.com/PandoraGalen/shanbay-chrome-extension/blob/master/2/%E6%88%AA%E5%9B%BE/%E6%88%AA%E5%9B%BE-2.png)
