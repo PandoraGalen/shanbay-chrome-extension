@@ -1,5 +1,5 @@
 # shanbay-chrome-extension
-扇贝小作业：屏幕广告过滤、屏幕适配、单词查询
+谷歌浏览器扩展：屏幕广告过滤、屏幕适配、单词查询
 
     这个仓库里有两个项目包： 1和2。主要区别在文章分页功能实现上:
     * 1中用的是`jQuery`插件`textify.js`：http://www.jq22.com/jquery-info6000
